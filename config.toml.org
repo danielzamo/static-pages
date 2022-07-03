@@ -1,0 +1,42 @@
+baseurl = "https://danielzamo.github.io/"
+languageCode = "es"
+title = "Artículos compartidos"
+theme = "ghostwriter"
+
+[Params]
+ mainSections = ["post"]
+ intro = true
+ headline = "ARTÍCULOS"
+ description = "Sitio con artículos varios compartidos"
+ github = "https://github.com/danielzamo"
+ twitter = "https://twitter.com/danieloscarzamo"
+ email = "daniel.oscar.zamo@gmail.com"
+ opengraph = true
+ shareTwitter = true
+ dateFormat = "Mon, Jan 2, 2006"
+
+#[Permalinks]
+#    post = "/:year/:month/:day/:filename/"
+
+#[Permalinks]
+#    post = "/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Projects"
+    url = "/project/"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "/page/contact/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/page/about/"
+    weight = 4
